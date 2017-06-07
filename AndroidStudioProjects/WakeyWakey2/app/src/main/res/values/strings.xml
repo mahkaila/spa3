@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WakeyWakey</string>
+    <string name="facebook_app_id">344128812644574</string>
+    <string name="error_login">An error occurred</string>
+    <string name="cancel_login">canceled</string>
+    <string name="share">Share</string>
+</resources>

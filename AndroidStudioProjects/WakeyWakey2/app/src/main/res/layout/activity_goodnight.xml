@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_goodnight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/lightYellow"
+    tools:context="com.example.mahkaila.wakeywakey.Goodnight">
+
+    <TextView
+        android:text="time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:textSize="24sp"
+        android:layout_alignBottom="@+id/share_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:textAlignment="center" />
+
+    <com.facebook.share.widget.ShareButton
+        android:id="@+id/share_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="OK"
+        android:background="@drawable/com_facebook_button_background"
+        android:clickable="true"
+        android:layout_marginBottom="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/goodnight"
+        android:id="@+id/imageView6"
+        android:layout_marginBottom="78dp"
+        android:layout_above="@+id/share_btn"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

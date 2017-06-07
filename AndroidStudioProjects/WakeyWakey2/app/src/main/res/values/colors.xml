@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff9600</color>
+    <color name="pink">#4bb6c3</color>
+    <color name="paleBlue">#d4f4f5</color>
+    <color name="pale">#e9f5ff</color>
+    <color name="lightYellow">#fff7e3</color>
+    <color name="lightPink">#f5dad4</color>
+    <color name="button">#3f6382</color>
+    <color name="buttonText">#ffffff</color>
+    <color name="alarmText">#bc7c00</color>
+
+</resources>
